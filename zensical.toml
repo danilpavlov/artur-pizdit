@@ -1,0 +1,181 @@
+[project]
+site_name = "DS Portfolio — Артур"
+site_description = "Бизнес-кейсы Data Science для резюме"
+use_directory_urls = false
+extra_css = ["stylesheets/extra.css"]
+
+nav = [
+  { "Главная" = "index.md" },
+  { "Шаблон кейса" = [
+    { "Как пользоваться" = "template/index.md" },
+    { "Контекст" = "template/context.md" },
+    { "Флоу работы" = "template/flow.md" },
+    { "Достижения" = "template/achievements.md" },
+    { "Техстек" = "template/stack.md" },
+    { "Команда" = "template/team.md" },
+    { "Ретро" = "template/retro.md" },
+  ]},
+  { "Кейсы" = [
+    { "Обзор" = "cases/index.md" },
+    { "Кейс 01: пример" = [
+      { "Обзор" = "cases/case-01-example/index.md" },
+      { "Контекст" = "cases/case-01-example/context.md" },
+      { "Флоу работы" = "cases/case-01-example/flow.md" },
+      { "Достижения" = "cases/case-01-example/achievements.md" },
+      { "Техстек" = "cases/case-01-example/stack.md" },
+      { "Команда" = "cases/case-01-example/team.md" },
+      { "Ретро" = "cases/case-01-example/retro.md" },
+    ]},
+    { "Кейс 02: NER маскирование (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-02-doxod-ner/index.md" },
+      { "Контекст" = "cases/case-02-doxod-ner/context.md" },
+      { "Флоу работы" = "cases/case-02-doxod-ner/flow.md" },
+      { "Достижения" = "cases/case-02-doxod-ner/achievements.md" },
+      { "Техстек" = "cases/case-02-doxod-ner/stack.md" },
+      { "Команда" = "cases/case-02-doxod-ner/team.md" },
+      { "Ретро" = "cases/case-02-doxod-ner/retro.md" },
+    ]},
+    { "Кейс 03: Ранжирование резюме (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-03-doxod-resume-ranking/index.md" },
+      { "Контекст" = "cases/case-03-doxod-resume-ranking/context.md" },
+      { "Флоу работы" = "cases/case-03-doxod-resume-ranking/flow.md" },
+      { "Достижения" = "cases/case-03-doxod-resume-ranking/achievements.md" },
+      { "Техстек" = "cases/case-03-doxod-resume-ranking/stack.md" },
+      { "Команда" = "cases/case-03-doxod-resume-ranking/team.md" },
+      { "Ретро" = "cases/case-03-doxod-resume-ranking/retro.md" },
+    ]},
+    { "Кейс 04: Сегментация и NBA (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-04-doxod-segmentation-nba/index.md" },
+      { "Контекст" = "cases/case-04-doxod-segmentation-nba/context.md" },
+      { "Флоу работы" = "cases/case-04-doxod-segmentation-nba/flow.md" },
+      { "Достижения" = "cases/case-04-doxod-segmentation-nba/achievements.md" },
+      { "Техстек" = "cases/case-04-doxod-segmentation-nba/stack.md" },
+      { "Команда" = "cases/case-04-doxod-segmentation-nba/team.md" },
+      { "Ретро" = "cases/case-04-doxod-segmentation-nba/retro.md" },
+    ]},
+    { "Кейс 05: Отток клиентов (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-05-doxod-churn/index.md" },
+      { "Флоу работы" = "cases/case-05-doxod-churn/flow.md" },
+      { "Детали" = "cases/case-05-doxod-churn/details.md" },
+    ]},
+    { "Кейс 06: PySpark витрина фичей (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-06-doxod-spark-feature-store/index.md" },
+      { "Флоу работы" = "cases/case-06-doxod-spark-feature-store/flow.md" },
+      { "Детали" = "cases/case-06-doxod-spark-feature-store/details.md" },
+    ]},
+    { "Кейс 07: Прогноз cashflow/AUM (ДОХОДЪ)" = [
+      { "Обзор" = "cases/case-07-doxod-cashflow-forecast/index.md" },
+      { "Флоу работы" = "cases/case-07-doxod-cashflow-forecast/flow.md" },
+      { "Детали" = "cases/case-07-doxod-cashflow-forecast/details.md" },
+    ]},
+    { "Кейс 08: Dynamic pricing (Webbee ML)" = [
+      { "Обзор" = "cases/case-08-webbee-dynamic-pricing/index.md" },
+      { "Контекст" = "cases/case-08-webbee-dynamic-pricing/context.md" },
+      { "Флоу работы" = "cases/case-08-webbee-dynamic-pricing/flow.md" },
+      { "Достижения" = "cases/case-08-webbee-dynamic-pricing/achievements.md" },
+      { "Техстек" = "cases/case-08-webbee-dynamic-pricing/stack.md" },
+      { "Команда" = "cases/case-08-webbee-dynamic-pricing/team.md" },
+      { "Ретро" = "cases/case-08-webbee-dynamic-pricing/retro.md" },
+    ]},
+    { "Кейс 09: Модерация карточек (Webbee ML)" = [
+      { "Обзор" = "cases/case-09-webbee-card-moderation/index.md" },
+      { "Контекст" = "cases/case-09-webbee-card-moderation/context.md" },
+      { "Флоу работы" = "cases/case-09-webbee-card-moderation/flow.md" },
+      { "Достижения" = "cases/case-09-webbee-card-moderation/achievements.md" },
+      { "Техстек" = "cases/case-09-webbee-card-moderation/stack.md" },
+      { "Команда" = "cases/case-09-webbee-card-moderation/team.md" },
+      { "Ретро" = "cases/case-09-webbee-card-moderation/retro.md" },
+    ]},
+    { "Кейс 10: Anti-fraud (Webbee ML)" = [
+      { "Обзор" = "cases/case-10-webbee-antifraud/index.md" },
+      { "Контекст" = "cases/case-10-webbee-antifraud/context.md" },
+      { "Флоу работы" = "cases/case-10-webbee-antifraud/flow.md" },
+      { "Достижения" = "cases/case-10-webbee-antifraud/achievements.md" },
+      { "Техстек" = "cases/case-10-webbee-antifraud/stack.md" },
+      { "Команда" = "cases/case-10-webbee-antifraud/team.md" },
+      { "Ретро" = "cases/case-10-webbee-antifraud/retro.md" },
+    ]},
+  ]},
+]
+
+[project.extra]
+version = "0.1.0"
+
+[project.theme]
+language = "ru"
+custom_dir = "overrides"
+font = false
+
+features = [
+    "announce.dismiss",
+    "content.code.annotate",
+    "content.code.copy",
+    "content.code.select",
+    "content.footnote.tooltips",
+    "content.tabs.link",
+    "content.tooltips",
+    "navigation.expand",
+    "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.path",
+    "navigation.top",
+    "navigation.tracking",
+    "search.highlight",
+    "search.suggest",
+    "toc.follow",
+]
+
+# Dark mode (default, matches OS preference)
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "vague"
+toggle.icon = "lucide/moon"
+toggle.name = "Светлая тема"
+
+# Light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "vague-light"
+toggle.icon = "lucide/sun"
+toggle.name = "Тёмная тема"
+
+# Markdown extensions
+[project.markdown_extensions.toc]
+permalink = true
+toc_depth = 3
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+# Plugins
+[project.plugins.search]
+[project.plugins.offline]

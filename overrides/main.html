@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block site_name %}
+  {{ super() }}
+  {% if config.extra.version %}
+    <span class="md-version-badge">v{{ config.extra.version }}</span>
+  {% endif %}
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ 'assets/javascripts/mermaid.min.js' | url }}"></script>
+  {{ super() }}
+{% endblock %}
